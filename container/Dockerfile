@@ -28,5 +28,5 @@ RUN cd /usr/src/imagemagick \
   && rm -rf build \
   && mkdir build \
   && tar czf \
-    /usr/src/imagemagick/build/imagemagick.tar.gz bin include lib
+    /usr/src/imagemagick/build/imagemagick.tar.gz bin include lib share
 
