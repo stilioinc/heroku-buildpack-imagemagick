@@ -74,8 +74,8 @@ export CPATH="\$CPATH:${CPATH//$BUILD_DIR//app}"
 EOF
 
 echo "-----> Writing delegates file"
-mkdir -p $INSTALL_DIR/etc/ImageMagick
-cat > $INSTALL_DIR/delegates.xml <<EOF
+mkdir -p $BUILD_DIR/etc/ImageMagick
+cat > $BUILD_DIR/delegates.xml <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE delegatemap [
   <!ELEMENT delegatemap (delegate)+>
