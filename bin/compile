@@ -75,7 +75,7 @@ EOF
 
 echo "-----> Writing delegates file"
 mkdir -p $BUILD_DIR/etc/ImageMagick
-cat > $BUILD_DIR/delegates.xml <<EOF
+cat <<EOF > $BUILD_DIR/delegates.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE delegatemap [
   <!ELEMENT delegatemap (delegate)+>
